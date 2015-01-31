@@ -20,7 +20,7 @@ ul {
 
 body {
   font-family: arial;
-  background: #eee;
+  background: #EDE3D8;
   padding: 20px;
   /*max-width: 822px;*/
 }
@@ -32,5 +32,6 @@ canvas {
 #instructions {
   margin-left: 25px;
   font-size: 14px;
+  font-weight: bold;
   color: #999;
 }
