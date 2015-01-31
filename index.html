@@ -11,16 +11,18 @@
   <script src="lib/room.js"></script>
   <script src="lib/input_manager.js"></script>
   <script src="lib/game_view.js"></script>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>ZedTV</title>
-  <style>
-    canvas {
-      border: solid #9E7909;
-    }
-  </style>
 </head>
 
 <body>
   <canvas></canvas>
+
+  <ul id="instructions">
+    <li>Move with WASD.</li>
+    <li>Shoot with IJKL.</li>
+    <li>Pause with P.</li>
+  </ul>
 
   <script>
     (function () {

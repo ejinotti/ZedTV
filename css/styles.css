@@ -1,0 +1,36 @@
+html, body, header, footer, section, article, div,
+strong, a, img, p, h1, h2, h3, time, ul, li, small,
+form, label, input, textarea, button, nav, span, figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  box-sizing: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: arial;
+  background: #eee;
+  padding: 20px;
+  /*max-width: 822px;*/
+}
+
+canvas {
+  border: solid #9E7909;
+}
+
+#instructions {
+  margin-left: 25px;
+  font-size: 14px;
+  color: #999;
+}
