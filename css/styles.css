@@ -22,11 +22,16 @@ body {
   font-family: arial;
   background: #EDE3D8;
   padding: 20px;
-  /*max-width: 822px;*/
 }
 
 canvas {
   border: solid #9E7909;
+}
+
+#score {
+  float: right;
+  font-weight: bold;
+  font-size: x-large;
 }
 
 #instructions {
