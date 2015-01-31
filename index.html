@@ -8,6 +8,7 @@
   <script src="lib/player.js"></script>
   <script src="lib/mob.js"></script>
   <script src="lib/projectile.js"></script>
+  <script src="lib/input_manager.js"></script>
   <script src="lib/game_view.js"></script>
   <title>ZedTV</title>
   <style>
@@ -27,8 +28,7 @@
       canvasEl.height = ZedTV.Game.DIM_Y;
 
       var ctx = canvasEl.getContext("2d");
-      var game = new ZedTV.Game();
-      new ZedTV.GameView(game, ctx).start();
+      new ZedTV.GameView(ctx).start();
     })();
   </script>
 </body>
