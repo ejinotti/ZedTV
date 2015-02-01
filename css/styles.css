@@ -22,6 +22,7 @@ body {
   font-family: arial;
   background: #EDE3D8;
   padding: 20px;
+  max-width: 806px;
 }
 
 canvas {
@@ -31,7 +32,17 @@ canvas {
 #score {
   float: right;
   font-weight: bold;
-  font-size: x-large;
+  text-shadow: 2px 2px gray;
+  font-size: 64px;
+  text-align: right;
+  min-width: 200px;
+  color: gold;
+  background: white;
+  border: 1px solid gold;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  padding: 5px;
+  margin-right: 20px;
 }
 
 #instructions {
