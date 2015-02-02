@@ -27,7 +27,6 @@ body {
 }
 
 canvas {
-  /*position: relative;*/
   border: solid #9E7909;
 }
 
@@ -38,7 +37,11 @@ canvas {
   width: 200px;
   top: 323px;
   left: 323px;
-  z-index: 999;
+  font-weight: bold;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
 }
 
 #score {
@@ -58,8 +61,31 @@ canvas {
 }
 
 #instructions {
-  margin-left: 25px;
+  float: right;
+  margin-right: 20px;
+  text-align: right;
   font-size: 14px;
   font-weight: bold;
   color: #999;
+}
+
+#high-scores-fig {
+  display: inline-block;
+  margin-left: 25px;
+  font-weight: bold;
+  background: white;
+  border: 1px solid gold;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  padding: 5px;
+  color: gold;
+  text-shadow: 1px 1px gray;
+}
+
+#high-scores-fig > h3 {
+  text-decoration: underline;
+}
+
+#high-scores-fig > li {
+  margin: 5px 0;
 }
