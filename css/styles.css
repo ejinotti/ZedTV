@@ -1,5 +1,5 @@
 html, body, header, footer, section, article, div,
-strong, a, img, p, h1, h2, h3, time, ul, li, small,
+strong, a, img, p, h1, h2, h3, time, ol, ul, li, small,
 form, label, input, textarea, button, nav, span, figure {
   margin: 0;
   padding: 0;
@@ -19,6 +19,7 @@ ul {
 }
 
 body {
+  position: relative;
   font-family: arial;
   background: #EDE3D8;
   padding: 20px;
@@ -26,7 +27,18 @@ body {
 }
 
 canvas {
+  /*position: relative;*/
   border: solid #9E7909;
+}
+
+#end-game-msg {
+  background: white;
+  position: absolute;
+  display: none;
+  width: 200px;
+  top: 323px;
+  left: 323px;
+  z-index: 999;
 }
 
 #score {
