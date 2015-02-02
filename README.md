@@ -15,4 +15,3 @@ title, [**SmashTV**](http://en.wikipedia.org/wiki/Smash_TV) —
 + Background music lol?
 + Create the Level => series of rooms that player can navigate.
 + Maybe parse levels and rooms from text file.
-+ Create a back-end for recording users/scores.
