@@ -8,7 +8,6 @@ title, [**SmashTV**](http://en.wikipedia.org/wiki/Smash_TV) —
 ###TODO
 + Find an image for basic mobs.
 + Get a background image and draw the four doors.
-+ Create another mob type that shoots at player.
 + Create Weapons, Powerups, etc.
 + Expand on Rooms: more timers, progress, end of room, bosses, etc.
 + Animate player/mob movements and explosions.
