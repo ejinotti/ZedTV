@@ -15,9 +15,11 @@ In this game, player moves at constant speed based on which direction key(s)
 are being held down.  Thus I settled on polling for which keys are down
 synchronously at the start of each frame, and setting the player's velocity for
 the frame accordingly.
+
 2. Firing is handled similarly, however firing a bullet on every frame is
 probably too much so I added a delay of 3 frames between shots, adjustable via
 Player.RATEOFFIRE.
+
 3. Beyond those, the only other notable choice was having all game objects
 inherit from MovingObject.  This is just good OO structure and provides a base
 for all objects to use the draw and move functions.
